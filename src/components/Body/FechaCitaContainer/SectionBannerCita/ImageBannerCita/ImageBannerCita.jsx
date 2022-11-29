@@ -1,10 +1,12 @@
 import React from "react";
 import "./ImageBannerCita.scss";
 
+import image from "../src/assets/img/seleccionarfecha.png";
+
 const ImageBannerCita = () => {
     return (
     <figure className="imagebannercita">
-        <img src="../src/assets/img/seleccionarfecha.png" alt="Baner" />
+        <img src={image} alt="Baner" />
     </figure>)
 }
 

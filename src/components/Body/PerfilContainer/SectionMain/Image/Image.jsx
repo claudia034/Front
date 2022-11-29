@@ -1,10 +1,12 @@
 import React from "react";
 import "./Image.scss";
 
+import img from "../src/assets/img/perfil.png";
+
 const Image = () => {
     return (
     <figure className="image">
-        <img src="../src/assets/img/perfil.png" alt="Imagen Donación" />
+        <img src={} alt="Imagen Donación" />
     </figure>)
 }
 
