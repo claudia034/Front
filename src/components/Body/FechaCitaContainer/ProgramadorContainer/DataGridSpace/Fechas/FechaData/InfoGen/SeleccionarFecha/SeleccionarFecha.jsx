@@ -88,8 +88,7 @@ const SeleccionarFecha = ({ dateInfo }) => {
                 clientId: CLIENT_ID,
                 discoveryDocs: DISCOVERY_DOCS,
                 scope: SCOPES,
-                plugin_name: "chat",
-                ux_mode: 'redirect'
+                plugin_name: "chat"
             });
 
             gapi.client.load('calendar', 'v3', () => console.log('bam!'))
