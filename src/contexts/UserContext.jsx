@@ -57,7 +57,7 @@ export const UserContextProvider = (props) => {
   const login = async (identifier, password) => {
     startLoading();
     try {
-      const { data } = await axios.get("/auth/signin", { identifier, password });
+      const { data } = await axios.post("/auth/signin", { identifier, password });
       const _token = data.token;
         
       setToken(_token);
