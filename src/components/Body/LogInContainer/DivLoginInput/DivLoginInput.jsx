@@ -117,7 +117,7 @@ const LogInContainer = ( { onLoginDo } ) => {
 
             </div>
 
-            <p> ¿No tienes una cuenta? <Link to="/user/create-profile"> <strong>Crea tu perfil </strong> </Link></p>
+            <p> ¿No tienes una cuenta? <Link to="/auth/signup"> <strong>Crea tu perfil </strong> </Link></p>
         </form>
     );
 };

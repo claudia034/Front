@@ -14,7 +14,8 @@ const C10 = () => {
             placeholder="Verificar contraseña"
             id="passwordv" 
             name="passwordv" 
-            pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,32})/"/>
+            //pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,32})/"
+            />
         </div>
     </div>)
 }
