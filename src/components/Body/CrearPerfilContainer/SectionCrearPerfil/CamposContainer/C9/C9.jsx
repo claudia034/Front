@@ -14,7 +14,7 @@ const C9 = () => {
             placeholder="Contraseña" 
             id="password" 
             name="password" 
-            //pattern="/^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.{8,32})/"
+            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8,24}$"
             />
         </div>
     </div>)
