@@ -1,0 +1,54 @@
+@import "../../../../../../../../../assets/sass/variables";
+
+
+.seleccionarfecha{
+    margin: 0;
+
+    font-size: 0.75rem;
+
+    width: 18vh;
+    height: 7vh;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    button{
+        cursor: pointer;
+        width: 12vh;
+        height: 4.5vh;
+
+        font-size: 0.75rem;
+        font-family: $theme-text-font;
+
+        border: none;
+        border-radius: 0.7rem;
+
+        background-color: #f45652;
+        color: #fefefe;
+
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+
+    button:hover{
+        opacity: 0.9;
+    }
+
+    button:active{
+        transform: scale(1.05);
+    }
+}
+
+@media screen and (max-width: 640px){
+    .seleccionarfecha{
+        width: 6vh;
+        font-size: 1vh;
+
+        button{
+            width: 7vh;
+            height: 4vh;
+
+            font-size: 1vh;
+        }
+    }
+}
