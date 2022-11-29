@@ -48,11 +48,11 @@ function App() {
 
             <Route path='auth/*' element={<AuthView/>} />
 
-            <Route path='user/*' element={ user && user.roles == "user" ? (<UserView/>) : (<Navigate to = "/"/> ) } />
+            <Route path='user/*' element={<UserView/>} />
 
             <Route path="/user/profile" element={<PerfilContainer/>}/>
 
-            <Route path='admin/*' element={  user && user.roles == "admin" ? (<AdminView/>) : (<Navigate to = "/"/> ) } />
+            <Route path='admin/*' element={<AdminView/>}/>
 
             <Route path="*" element={<NotFoundView/>} />
           </Routes>
