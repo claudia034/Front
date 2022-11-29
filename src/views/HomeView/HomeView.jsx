@@ -10,6 +10,18 @@ import {useNavigate } from 'react-router-dom';
 
 import { useUserContext } from "../../contexts/UserContext";
 
+// IMAGENES 
+
+import {grafico1} from "../src/assets/img/grafico1.png";
+import {grafico2} from  "../src/assets/img/grafico2.png";
+import {grafico3} from "../src/assets/img/grafico3.png";
+import {bannermain} from "../src/assets/img/bannermain.png";
+import {perfil} from "../src/assets/img/perfil.png";
+import {Claudia} from "../src/assets/img/Claudia.png";
+import {Diego} from "../src/assets/img/Diego.png";
+import {Fernando} from "../src/assets/img/Fernando.png"
+
+
 import Swal from 'sweetalert2';
 
 const HomeView = () => {
@@ -42,7 +54,7 @@ const HomeView = () => {
                         <BotonDonar onClick={handleClickDonar} text= "Donar"/>
                     </div>
                     <div className= { classes ["imgcon"]}>
-                        <figure><img src="../src/assets/img/bannermain.png" alt="banner" /></figure>
+                        <figure><img src={bannermain} alt="banner" /></figure>
                     </div>
                 </div>
             </section>
@@ -55,15 +67,15 @@ const HomeView = () => {
                         de sangre entera. Luego, la sangre se separa en sus componentes: glóbulos rojos, plasma y, a veces, plaquetas.
                     </p>
                     <div className={ classes ["graficasimg"]}>
-                        <figure><img src="../src/assets/img/grafico1.png" alt="grafica" /></figure>
-                        <figure><img src="../src/assets/img/grafico2.png" alt="grafica" /></figure>
-                        <figure><img src="../src/assets/img/grafico3.png" alt="grafica" /></figure>
+                        <figure><img src={grafico1} alt="grafica" /></figure>
+                        <figure><img src={grafico2} alt="grafica" /></figure>
+                        <figure><img src={grafico3} alt="grafica" /></figure>
                     </div>
                 </div>
             </section>
             <section className={ classes ["compartiendovidas"]}>
                 <div className={ classes ["contenedor3"]}>
-                    <figure><img src="../src/assets/img/perfil.png" alt="img" /></figure>
+                    <figure><img src={perfil} alt="img" /></figure>
                     <div className={ classes ["texto1"]}>
                         <h3>BIENVENIDOS</h3>
                         <h1>Compartiendo vidas</h1>
@@ -83,21 +95,21 @@ const HomeView = () => {
                     <strong>  Michael Jordan.</strong></p>
                     <div className={ classes ["tarjetascontainer"]}>
                         <div className={ classes ["tarjeta"]}>
-                            <figure><img src="../src/assets/img/Claudia.png" alt="" /></figure>
+                            <figure><img src={Claudia} alt="" /></figure>
                             <div className={ classes ["info"]}>
                                 <h2>Claudia Chávez</h2>
                                 <p>Ing. Informatica</p>
                             </div>
                         </div>
                         <div className={ classes ["tarjeta"]}>
-                            <figure><img src="../src/assets/img/Fernando.png" alt="" /></figure>
+                            <figure><img src={Fernando} alt="" /></figure>
                             <div className={ classes ["info"]}>
                                 <h2>Fernando Figueroa</h2>
                                 <p>Ing. Informatica</p>
                             </div>
                         </div>
                         <div className={ classes ["tarjeta"]}>
-                            <figure><img src="../src/assets/img/Diego.png" alt="" /></figure>
+                            <figure><img src={Diego} alt="" /></figure>
                             <div className={ classes ["info"]}>
                                 <h2>Diego Viana</h2>
                                 <p>Ing. Informatica</p>
