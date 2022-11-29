@@ -6,7 +6,7 @@ import img from "../src/assets/img/perfil.png";
 const Image = () => {
     return (
     <figure className="image">
-        <img src={} alt="Imagen Donación" />
+        <img src={img} alt="Imagen Donación" />
     </figure>)
 }
 
