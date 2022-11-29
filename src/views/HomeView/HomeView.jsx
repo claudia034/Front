@@ -12,14 +12,14 @@ import { useUserContext } from "../../contexts/UserContext";
 
 // IMAGENES 
 
-import grafico1 from "../src/assets/img/grafico1.png";
-import grafico2 from  "../src/assets/img/grafico2.png";
-import grafico3 from "../src/assets/img/grafico3.png";
-import bannermain from "../src/assets/img/bannermain.png";
-import perfil from "../src/assets/img/perfil.png";
-import Claudia from "../src/assets/img/Claudia.png";
-import Diego from "../src/assets/img/Diego.png";
-import Fernando from "../src/assets/img/Fernando.png"
+import grafico1 from "./../src/assets/img/grafico1.png";
+import grafico2 from  "./../src/assets/img/grafico2.png";
+import grafico3 from "./../src/assets/img/grafico3.png";
+import bannermain from "./../src/assets/img/bannermain.png";
+import perfil from "./../src/assets/img/perfil.png";
+import Claudia from "./../src/assets/img/Claudia.png";
+import Diego from "./../src/assets/img/Diego.png";
+import Fernando from "./../src/assets/img/Fernando.png"
 
 
 import Swal from 'sweetalert2';
