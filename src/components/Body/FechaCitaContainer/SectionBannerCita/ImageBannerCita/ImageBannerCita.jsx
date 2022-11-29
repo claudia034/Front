@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageBannerCita.scss";
 
-import seleccionarFecha from "./../../../../../assets/imgseleccionarfecha.png";
+import seleccionarFecha from "./../../../../../assets/img/seleccionarfecha.png";
 
 const ImageBannerCita = () => {
     return (

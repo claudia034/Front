@@ -1,7 +1,7 @@
 import React from "react";
 import "./imgbanner.scss";
 
-import banneredit from "../src/assets/img/editarperfil.png";
+import banneredit from "./../../../../../assets/img/editarperfil.png";
 
 const imgbanner = () => {
     return (

@@ -1,7 +1,7 @@
 import React from "react";
 import "./ImageBanner.scss";
 
-import imagen from "../src/assets/img/requisitos.png";
+import imagen from "./../../../../../assets/img/requisitos.png";
 
 const ImageBanner = () => {
     return (
